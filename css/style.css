@@ -119,12 +119,13 @@ li{
 .contents{
     display: flex;
 }
-.contents::after{
+.content::after{
     content: ">";
 }
-.contents:nth-child(4)::after {
-    content:none;
+.content{
+    font-size: 13px;
 }
-.contents:nth-child(4)::after {
-    content:none;
+.leftvar{
+    position: absolute;
+    left: 250px;
 }
