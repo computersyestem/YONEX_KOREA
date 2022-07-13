@@ -97,3 +97,22 @@ li{
 .Form .trash #firstid{
     margin-left: 10px;
 }
+.nav{
+    display: flex;
+    background: linear-gradient( to top, rgb(17, 85, 141) 60%, rgb(78, 124, 161));;
+    border-radius: 10px;
+    margin: 20px 10px;
+    height: 45px;
+}
+.nav .navele{
+    padding: 10px 20px 12px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #FFF;
+    align-items: center;
+    margin-top: 3px;
+    border-left: solid black 1px;
+}
+.nav #navele1{
+    border: white 0px;
+}
