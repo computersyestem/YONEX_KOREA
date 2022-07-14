@@ -150,6 +150,7 @@ li{
 .neck{
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
 }
 .neckImg{
     border-radius: 10px;
@@ -184,7 +185,7 @@ li{
     border-radius: 10px;
     background-color: #cfd2d6;
     margin-top: -7px;
-    height: 500px;
+    height: 490px;
     display: flex;
     width: 180px;
 }
@@ -201,13 +202,26 @@ li{
     display: flex;
     align-items: flex-start;
 }
-.nCurrent a{
+.nCurrent a, .currents a{
     flex-direction:initial;
 }
 .section .currents:first-child{
     color: black;
 }
-.nCurrent .current i{
+.nCurrent .current i, .currents i{
     font-size: 15px;
     margin: 0 5px 0 0;
+}
+#curS{
+    padding: 4px 10px 4px 17px;
+    color: #6d6271;
+    background: linear-gradient( to bottom, rgb(230, 230, 230) 30%, rgb(184, 183, 183));
+    width: 119%;
+    height: 23px;
+    border-top: solid #666 0.25px;
+}
+.neck h3{
+    font-size: 30px;
+    color: #666666;
+    margin: 30px 0 15px 0px;
 }
