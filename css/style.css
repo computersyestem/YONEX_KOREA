@@ -46,6 +46,7 @@ li{
     margin-left: auto;
 }
 #golf{
+    cursor: pointer;
     margin-bottom: 15px;    
     display: flex;
     align-items: flex-start;
@@ -54,6 +55,7 @@ li{
     margin-left : 10px;
 }
 .mall{
+    cursor: pointer;
     margin-bottom: 10px;
     display: flex;
     align-items: flex-start;
@@ -68,6 +70,7 @@ li{
     position: absolute;
     right: 15px;
     border: solid lightgray 0.5px;
+    cursor: pointer;
 }
 .Form{
     margin: 45px 15px 0 0;
@@ -79,6 +82,9 @@ li{
     font-size: 11px;
     height: 15px;
     border: solid lightgray 0px;
+}
+#topIMG{
+    cursor: pointer;
 }
 .Form .trash{
     background-color: white;
@@ -99,7 +105,7 @@ li{
 }
 .nav{
     display: flex;
-    background: linear-gradient( to top, rgb(17, 85, 141) 60%, rgb(78, 124, 161));;
+    background: linear-gradient( to top, rgb(17, 85, 141) 60%, rgb(78, 124, 161));
     border-radius: 10px;
     margin: 20px 10px;
     height: 45px;
@@ -123,9 +129,85 @@ li{
     content: ">";
 }
 .content{
-    font-size: 13px;
+    font-size: 12px;
 }
 .leftvar{
     position: absolute;
     left: 250px;
+}
+.navele{
+    text-decoration-line: none;
+}
+.navele:hover{
+    background: linear-gradient( to top, rgb(3, 51, 90) 60%, rgb(28, 111, 179));
+}
+#navele1:hover{
+    border-radius: 10px 0 0 10px;
+}
+#pointer{
+    cursor: pointer;
+}
+.neck{
+    display: flex;
+    flex-direction: column;
+}
+.neckImg{
+    border-radius: 10px;
+}
+.current{
+    background: url(../image/common/lside_1deps_bult_open.png) no-repeat left top;
+}
+.center{
+    display: flex;
+}
+.warp{
+    margin-top: -20px;
+    padding: 10px 10px 0px;
+}
+.leftHead{
+    border-radius: 10px 10px 0 0;
+    width: 145px;
+    display:flex;
+    align-items: flex-start;
+    align-items: center;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.781);
+    color: #FFF;
+    padding: 0px 18px 0 17px;
+}
+.section ul{
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 0 0 0 0;
+}
+.section{
+    border-radius: 10px;
+    background-color: #cfd2d6;
+    margin-top: -7px;
+    height: 500px;
+    display: flex;
+    width: 180px;
+}
+.current{
+    display: flex;
+    flex-direction: column;
+}
+#padSel{
+    padding: 4px 10px 4px 17px;
+    color: #6d6271;
+}
+#padSel:first-child{
+    color: #207dbf;
+    display: flex;
+    align-items: flex-start;
+}
+.nCurrent a{
+    flex-direction:initial;
+}
+.section .currents:first-child{
+    color: black;
+}
+.nCurrent .current i{
+    font-size: 15px;
+    margin: 0 5px 0 0;
 }
