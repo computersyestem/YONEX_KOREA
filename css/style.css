@@ -77,7 +77,6 @@ li{
 }
 #serch{
     width: 200px;
-    border-radius: 10px;
     border: 10px;
     font-size: 11px;
     height: 15px;
@@ -150,10 +149,10 @@ li{
 .neck{
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .neckImg{
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 .current{
     background: url(../image/common/lside_1deps_bult_open.png) no-repeat left top;
@@ -165,6 +164,9 @@ li{
     margin-top: -20px;
     padding: 10px 10px 0px;
 }
+.picture{
+    cursor: pointer;
+}
 .leftHead{
     border-radius: 10px 10px 0 0;
     width: 145px;
@@ -175,6 +177,9 @@ li{
     background-color: rgba(0, 0, 0, 0.781);
     color: #FFF;
     padding: 0px 18px 0 17px;
+}
+a:visited{
+    color: #666;
 }
 .section ul{
     font-size: 12px;
@@ -202,6 +207,18 @@ li{
     display: flex;
     align-items: flex-start;
 }
+#padSel:hover{
+    color: #207dbf;
+    cursor: pointer;
+}
+#padSel a:visited{
+    text-decoration: none;
+    color: #6d6e71;
+}
+#curS:hover{
+    color: #207dbf;
+    cursor: pointer;
+}
 .nCurrent a, .currents a{
     flex-direction:initial;
 }
@@ -220,8 +237,86 @@ li{
     height: 23px;
     border-top: solid #666 0.25px;
 }
+.section{
+    background: linear-gradient( to bottom, rgb(230, 230, 230) 1%, rgb(184, 183, 183));
+}
 .neck h3{
     font-size: 30px;
     color: #666666;
     margin: 30px 0 15px 0px;
+}
+.content{
+    color: #6d6271;
+}
+.content:nth-child(2){
+    cursor: pointer;
+}
+.content:nth-child(3){
+    cursor: pointer;
+}
+a{
+    text-decoration-line: none;
+}
+.picture{
+    padding-top: 7px;
+}
+.lacketIMG{
+    width: 215px;
+    height: 215px;
+    cursor: pointer;
+}
+.blank{
+    width: 755px;
+    height: 50px;
+}
+.lacket{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 10px;
+}
+.lacketList{
+    margin: 0 8px 20px;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid lightgray 2px;
+}
+.lacket .lacketList a{
+    display: flex;
+    font-size: 12px;
+    color: white;
+    margin: auto;
+}
+.lacket .lacketList{
+    padding: 8px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    border: solid #ebebeb 2px;
+}
+.lacket .lacketList:hover{
+    background-color: rgba(211, 208, 208, 0.274);
+}
+.lacket .lacketList dd{
+    position: relative;
+    width: 209px;
+    height: 30px;
+    margin: -3px 0 0 0;
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    padding: 4px 3px;
+    background-color: #666;
+    border-radius: 0 0 10px 10px;
+}
+.mainSpan{
+    background-color: #666;
+    padding: 3px 5px 3px 5px;
+    font-size: 13px;
+    color: white;
+}
+.MainA{
+    padding: 3px 20px;
+    background-color: #666;
+    border-radius: 3px;
+    border: solid black 0.5px;
 }
